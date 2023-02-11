@@ -102,7 +102,6 @@ function sum2Num() {
         sum = hangChuc + hangDv;
     } else if(number <= -10 && number >= -99 ){
         number = number * (-1);
-        console.log(number)
         var hangChuc = Math.floor(number/10);
         var hangDv = number % 10;
 
